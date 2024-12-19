@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #222;
+    color: white;
+    border-radius: 15px;
+    max-width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.about, .skills {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about h2, .skills h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.projects, .contact {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 90%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    width: calc(100% - 20px);
+    background: #f9f9f9;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.project-item p {
+    margin: 10px 0;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.skills-icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
