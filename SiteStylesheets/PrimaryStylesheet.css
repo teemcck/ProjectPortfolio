@@ -38,12 +38,13 @@ nav ul li a {
 }
 
 .hero {
+    box-sizing: border-box;
     text-align: center;
     padding: 50px 20px;
     background: #222;
     color: white;
     border-radius: 15px;
-    max-width: 90%;
+    max-width: 95%;
     margin: 20px auto 20px auto;
 }
 
@@ -57,21 +58,22 @@ nav ul li a {
     margin: 20px 0;
 }
 
-.section-container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 90%;
-    margin: 20px auto;
-}
-
-.about, .skills {
-    flex: 1;
-    max-width: calc(50% - 10px);
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+.section-container { 
+    box-sizing: border-box; 
+    display: flex;  
+    flex-wrap: wrap;  
+    max-width: 95%;  
+    margin: 20px auto;  
+    gap: 20px; 
+ }  
+   
+ .about, .skills {  
+    flex: 1;  
+    padding: 20px;  
+    background-color: #fff;  
+    border-radius: 15px;  
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+ } 
 
 .about h2, .skills h2 {
     text-align: center;
@@ -80,10 +82,11 @@ nav ul li a {
 }
 
 .projects, .contact {
+    box-sizing: border-box;
     padding: 20px 20px;
     background-color: #fff;
     border-radius: 15px;
-    max-width: 90%;
+    max-width: 95%;
     margin: 20px auto;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -133,11 +136,12 @@ nav ul li a {
     height: 50px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 5px;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 10px 0px;
     background-color: #333;
     color: white;
     position: relative;
