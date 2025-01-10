@@ -89,7 +89,7 @@ nav ul li a {
 }
 
 .about p, .skills p {  
-    font-size: 1.1em; 
+    font-size: 1em; 
 }
 
 .projects, .contact {
@@ -132,7 +132,7 @@ nav ul li a {
 
 .project-item p {
     margin: 10px 0;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .skills-icons {
@@ -143,17 +143,18 @@ nav ul li a {
     gap: 12px;
 }
 
+/* Fix this later */
 .skill {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70px;
+    width: 60px + (2vw);
 }
 
 .skill img {
-    width: 60px;
-    height: 60px;
+    width: 50px + (2vw);
+    height: 50px + (2vw);
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 10px;
